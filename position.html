@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teaching Html</title>
     <style>
-        .swmming{
+        
+        .boy{
             position: relative;
-        }
-        div{
-            width: 200px;
-            border:  2px dashed palevioletred;
-            
+            top: 75px;
+            z-index: 2;
+
         }
         .ring{
-            position: sticky;
-            top: 0;
-            left: 50;
+            position: relative;
+            z-index: 1;
+        }
+        .water{
+            position: relative;
+            top: -75px;
         }
     </style>
 </head>
@@ -25,9 +27,9 @@
     <section class="swmming">
         <h1>This is my header</h1>
         <h1>I have learning position</h1>
-        <div class=""><img src="images/boy.svg" alt=""></div>
+        <div class="boy"><img src="images/boy.svg" alt=""></div>
         <div class="ring"><img src="images/ring.svg" alt=""></div>
-        <div class=""><img src="images/water.svg" alt=""></div>
+        <div class="water"><img src="images/water.svg" alt=""></div>
         <h5>Hello World</h5>
         <h5>Hello World</h5>
         <h5>Hello World</h5>
