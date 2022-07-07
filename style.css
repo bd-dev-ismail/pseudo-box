@@ -1,0 +1,14 @@
+div{
+    background-color: turquoise;
+    
+}
+h1{
+    background-color: greenyellow;
+    display: inline;
+}
+span{
+    background-color: blueviolet;
+    width: 250px;
+        height: 300px;
+        display: inline-block;
+}
