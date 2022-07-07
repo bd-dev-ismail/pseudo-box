@@ -22,7 +22,18 @@
         li:last-child{
             background-color: blue;
         }
-    
+        li:nth-child(2n){
+            color: red;
+        }
+        li:nth-child(2n+1){
+            color: gold;
+        }
+        h3::after{
+            content: ' Hello';
+        }
+        h3::before{
+            content: 'gello ';
+        }
     </style>
 </head>
 <body>
@@ -33,6 +44,16 @@
         <a href="https://google.com">Click to go google</a>
 
         <br>
+        <h3>This pseudo class</h3>
+        <h3>This pseudo class</h3>
+        <h3>This pseudo class</h3>
+        <h3>This pseudo class</h3>
+        <h3>This pseudo class</h3>
+        <h3>This pseudo class</h3>
+        <h3>This pseudo class</h3>
+        <h3>This pseudo class</h3>
+        <h3>This pseudo class</h3>
+        <h3>This pseudo class</h3>
         <ul>
             <li>Alia</li>
             <li>Sunny leone</li>
